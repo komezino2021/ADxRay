@@ -13,7 +13,7 @@ https://blogs.technet.microsoft.com/askds/2011/03/22/what-does-dcdiag-actually-d
 Details regarding the environment will be presented during the execution of the script. The log file will be created at: C:\AdxRay\ADXRay.log
 
 .NOTES
-Version:        6.0.5
+Version:        6.0.6
 Author:         Claudio Merola
 Co-Author:      Raphaela Pereira
 Date:           02/28/2024
@@ -29,7 +29,7 @@ Write-Host 'Starting ADxRay Script..' -ForegroundColor Green
 # Version
 $Global:Ver = '6.0'
 
-$Global:SupBuilds = '10.0 (19042)','10.0 (19043)','10.0 (19044)'
+$Global:SupBuilds = '10.0 (19044)','10.0 (19045)'
 
 $Global:Runtime = Measure-Command -Expression {
 
