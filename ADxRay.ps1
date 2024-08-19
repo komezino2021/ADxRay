@@ -1786,7 +1786,7 @@ foreach ($DC in $Global:DCs)
                         Add-Content $report "                       <td align=center>Full DC</td>"   
                     }
                 Add-Content $report "                       <td align=center>$DCIP</td>" 
-                if (!$SMBv1 -or $SMBv1 -eq 'False' -or $SMBv1 -eq $false -or $SMBv1.EnableSMB1Protocol -eq 'False')
+                if (!$SMBv1 -or $SMBv1 -eq 'False' -or $SMBv1 -eq $false -or $SMBv1.EnableSMB1Protocol -eq 'False' -or !$SMBv1.EnableSMB1Protocol)
                     {
                         Add-Content $report "                       <td align=center>Disable</td>"  
                     }
