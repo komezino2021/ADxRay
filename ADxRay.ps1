@@ -1,4 +1,4 @@
-#requires -version 2
+#Requires -version 2
 <#
 .SYNOPSIS
 Active Directory xRay Inventory
